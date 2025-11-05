@@ -1,0 +1,28 @@
+body{
+
+font-size: 40px;
+color: white;
+
+}
+
+div{
+    background-color: MediumSeaGreen;
+    padding: 2px 0px ;
+    width: 50%;
+}
+
+
+.fruits{
+    
+    background-color:Green;
+    
+}
+
+ li{
+   background-color:SeaGreen;
+   margin: 20px;
+ width: 90%; 
+ list-style-position: inside;
+} 
+
+
