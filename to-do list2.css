@@ -1,0 +1,35 @@
+body{
+    font-size: 30px;
+   background-color: Bisque;
+    font-family: "Open Sans", sans-serif;
+}
+.name{
+    font-size: 40px;
+     margin-left: 40px;
+}
+
+.tasks2{
+    display: block;
+    background-color: Wheat;
+}
+
+
+li:nth-child(odd) {
+  background-color: Tan;
+}
+
+li:nth-child(even) {
+  background-color: BurlyWood;
+}
+
+ul{
+    list-style: none;
+    width: 20%;
+}
+
+.tasks::before{
+    content:"\25FB";
+}
+.tasks2::before{
+    content:"\2611";
+}
